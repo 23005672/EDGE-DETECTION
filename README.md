@@ -33,7 +33,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the image using imread
-img = cv2.imread('nature.jpg')  # Replace 'image_path.jpg' with the actual path to your image
+img = cv2.imread('sunset.jpg')  # Replace 'image_path.jpg' with the actual path to your image
 
 # Convert the color to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
